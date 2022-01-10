@@ -2,6 +2,7 @@
 This Machine Learning webapp was developed to predict if the user, on the basis of input medical parameters is suffering from heart disease or not.
 
 **age** - age in years
+
 **sex** - (1 = male; 0 = female)
 **cp** - chest pain type
 0: Typical angina: chest pain related decrease blood supply to the heart 
