@@ -14,10 +14,9 @@ This Machine Learning webapp was developed to predict if the user, on the basis 
 
 **trestbps** - resting blood pressure (in mm Hg on admission to the hospital) anything above 130-140 is typically cause for concern
 
-**chol** - serum cholestoral in mg/dl
-
-**serum** = LDL + HDL + .2 * triglycerides
-above 200 is cause for concern
+**chol** - serum cholestoral in mg/dl 
+-serum = LDL + HDL + .2 * triglycerides
+-above 200 is cause for concern
 
 **fbs** - (fasting blood sugar > 120 mg/dl) (1 = true; 0 = false)
 '>126' mg/dL signals diabetes
