@@ -1,5 +1,10 @@
 # Heart Disease Prediction
-This Machine Learning webapp was developed to predict if the user, on the basis of input medical parameters is suffering from heart disease or not. The description of the input parameters are given below.
+
+This Machine Learning webapp was developed to predict if the user, on the basis of input medical parameters is suffering from heart disease or not. Various medical parameters related to the user are taken as input as used to predict the disease. The app is built using flask.
+
+# Dataset and Input Parameters
+
+The description of the input parameters are given below.
 
 **age** - age in years
 
@@ -45,6 +50,8 @@ This Machine Learning webapp was developed to predict if the user, on the basis 
 7: reversable defect: no proper blood movement when excercising
 
 **target** - have disease or not (1=yes, 0=no) (= the predicted attribute)
+
+# Development and Deployment
 
 The dataset was imported and features of the dataset was observed. The dataset was checked for nulls and other invalid data.
 Pre processing techniques were applied on the data and different visualisations techniques were applied to see the relation of the data and infer what are  the patients health parameters who suffer  from heart disease and other observations. Then we also clean the data and remove outliers. Then once the data is ready we take the model building part. We apply the process of Cross validation where multiple algorithms are used and their cv score is used to determine the algorithm . We have chosen Logistic Regression for our model and after tuning the parameters and then use various parameters to check the performance of the model. Then we dump it into a pickle file.
