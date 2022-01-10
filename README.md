@@ -57,9 +57,10 @@ The dataset was imported and features of the dataset was observed. The dataset w
 Pre processing techniques were applied on the data and different visualisations techniques were applied to see the relation of the data and infer what are  the patients health parameters who suffer  from heart disease and other observations. Then we also clean the data and remove outliers. Then once the data is ready we take the model building part. We apply the process of Cross validation where multiple algorithms are used and their cv score is used to determine the algorithm . We have chosen Logistic Regression for our model and after tuning the parameters and then use various parameters to check the performance of the model. Then we dump it into a pickle file.
 
 Flask API is used as for frontend processing and here the pickle file is used to predict if the patient is suffereing from heart disease. Then after that we output the result if the user has heart disease or not.
+![kisspng-flask-python-web-framework-bottle-microframework-django-5b3d0ba62504c0 3512153115307273341516](https://user-images.githubusercontent.com/76935226/148778829-022b8b36-35a6-4f76-b609-73a8c2321541.jpg)
 
-![1200px-Flask_logo svg](https://user-images.githubusercontent.com/76935226/148778149-2c1d24e6-261c-4bf2-aaae-913794075b5e.png)
-![python-logo](https://user-images.githubusercontent.com/76935226/148778407-38e61609-a3e1-4952-881f-83bfa6385ecd.png)
+![python-logo (3)](https://user-images.githubusercontent.com/76935226/148778780-89966f0d-8195-42f9-8ed8-6bff84d62efc.jpg)
+
 
 
 ![Screenshot (168)](https://user-images.githubusercontent.com/76935226/148761790-ca531058-7ecf-470c-a47c-736d54b59ca7.png)
