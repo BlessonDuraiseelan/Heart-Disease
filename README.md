@@ -46,6 +46,11 @@ This Machine Learning webapp was developed to predict if the user, on the basis 
 
 **target** - have disease or not (1=yes, 0=no) (= the predicted attribute)
 
+The dataset was imported and features of the dataset was observed. The dataset was checked for nulls and other invalid data.
+Pre processing techniques were applied on the data and different visualisations techniques were applied to see the relation of the data and infer what are  the patients health parameters who suffer  from heart disease and other observations. Then we also clean the data and remove outliers. Then once the data is ready we take the model building part. We apply the process of Cross validation where multiple algorithms are used and their cv score is used to determine the algorithm . We have chosen Logistic Regression for our model and after tuning the parameters and then use various parameters to check the performance of the model. Then we dump it into a pickle file.
+
+Flask API is used as for frontend processing and here the pickle file is used to predict if the patient is suffereing from heart disease. Then after that we output the result if the user has heart disease or not.
+
 ![Screenshot (168)](https://user-images.githubusercontent.com/76935226/148761790-ca531058-7ecf-470c-a47c-736d54b59ca7.png)
 ![Screenshot (169)](https://user-images.githubusercontent.com/76935226/148761805-fbb0e266-f196-41e0-b6fd-c06978f8b068.png)
 ![Screenshot (170)](https://user-images.githubusercontent.com/76935226/148761986-59cdd8a5-91b9-43b8-a99a-9f1bcee47c27.png)
