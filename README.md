@@ -1,4 +1,4 @@
-# Heart Disease Prediction
+# Heart Disease Detection
 
 This Machine Learning webapp was developed to predict if the user, on the basis of input medical parameters is suffering from heart disease or not. Various medical parameters related to the user are taken as input as used to predict the disease. The app is built using flask.
 
