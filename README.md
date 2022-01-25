@@ -60,7 +60,7 @@ Flask API is used as for frontend processing and here the pickle file is used to
 
 ![kisspng-flask-python-web-framework-bottle-microframework-django-5b3d0ba62504c0 3512153115307273341516](https://user-images.githubusercontent.com/76935226/148778829-022b8b36-35a6-4f76-b609-73a8c2321541.jpg)
 ![image](https://user-images.githubusercontent.com/76935226/140600298-11b355f2-f0f1-453a-a860-a984817597b5.png)
-
+![image](https://user-images.githubusercontent.com/76935226/150634420-34207f18-c7c7-4694-b08b-e5d02dc78d41.png)
 
 
 ![Screenshot (168)](https://user-images.githubusercontent.com/76935226/148761790-ca531058-7ecf-470c-a47c-736d54b59ca7.png)
