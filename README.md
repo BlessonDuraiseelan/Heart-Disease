@@ -54,7 +54,9 @@ The description of the input parameters are given below.
 # Development and Deployment
 
 The dataset was imported and features of the dataset was observed. The dataset was checked for nulls and other invalid data in order for the model to function well.
-Pre processing techniques were applied on the data and different visualisations techniques were applied to see the relation of the data and infer what are  the patients health parameters who suffer  from heart disease and other observations. Then we also clean the data and remove outliers. Then once the data is ready we take the model building part. We apply the process of Cross validation where multiple algorithms are used and their cv score is used to determine the algorithm . We have chosen Logistic Regression for our model and after tuning the parameters and then use various parameters to check the performance of the model. Then we dump it into a pickle file.
+Pre processing techniques were applied on the data and different visualisations techniques were applied to see the relation of the data and infer what are  the patients health parameters who suffer  from heart disease and other observations. Then we also clean the data and remove outliers. We also apply the process on Standard Scaler on the data in order to get all the data points in the same scale.
+
+Then once the data is ready we take the model building part. We apply the process of Cross validation where multiple algorithms are used and their cv score is used to determine the algorithm . We have chosen Logistic Regression for building our our model . After using the algorithm we are tuning the parameters of Logistic Regression for better functioing. After that process we use various parameters to check the performance of the model. We were getting an accuracy of 85% on test data. Then we dump it into a pickle file.
 
 Flask API is used as for frontend processing and here the pickle file is used to predict if the patient is suffereing from heart disease. Then after that we output the result if the user has heart disease or not.
 
