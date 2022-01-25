@@ -59,7 +59,7 @@ Pre processing techniques were applied on the data and different visualisations 
 Flask API is used as for frontend processing and here the pickle file is used to predict if the patient is suffereing from heart disease. Then after that we output the result if the user has heart disease or not.
 
 ![kisspng-flask-python-web-framework-bottle-microframework-django-5b3d0ba62504c0 3512153115307273341516](https://user-images.githubusercontent.com/76935226/148778829-022b8b36-35a6-4f76-b609-73a8c2321541.jpg)
-![python-logo (3)](https://user-images.githubusercontent.com/76935226/148778780-89966f0d-8195-42f9-8ed8-6bff84d62efc.jpg)
+
 
 
 
